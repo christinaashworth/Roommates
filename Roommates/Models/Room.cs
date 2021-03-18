@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Roommates.Models
 {
-    class Class1
+    public class Room
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int MaxOccupancy { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Roommates.Models
 {
-    class Class1
+    public class Chore
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
